@@ -1,0 +1,110 @@
+:root {
+    --primaryColor:  #db504a;
+    --secondaryColor: #FF6F59;
+    --fontsColor: #311313;
+}
+
+.backgroundColor {
+    background-color: #FF6F59;
+    
+}
+
+.nav-item.active.motto {
+    color: var(--fontsColor);
+    font-weight: bolder;
+    font-size: large;
+}
+
+#work:hover {
+    text-size: 15%;
+}
+
+
+.heroBanner {
+    background-image: var(--primaryColor);
+    color: var(--fontsColor);
+    margin-bottom: 0;
+    margin-top: 100px;
+    
+}
+.imgSize {
+    max-width: 75%;
+}
+/* Work section */
+.colorFonts, h2 {
+    color: var(--fontsColor)
+}
+.work {
+    background-color:#FF6F59 ;
+}
+
+.navLinks {
+    font-size: larger;
+}
+
+.buttonShadow:hover {
+    text-shadow: 0 8px 12px #FF6F59;
+  }
+  
+
+.cardColor {
+background-color: #254441;
+}
+
+.cardStyles {
+    margin-bottom: 45px;
+    /* background-color: var(--secondaryColor); */
+}
+.insideCard {
+    background-color: var(--secondaryColor);
+}
+
+.linkSize {
+    font-size: 40px; 
+}
+
+.footer {
+    font-size: 20px; 
+   border-style: solid;
+   /* border-top: 20px; */
+   border-top-width: 2px;
+   border-color: var(--secondaryColor);
+   padding-top: 25px;
+   border-left-width: 0px;
+   border-right-width: 0px;
+   border-bottom-width: 0px;
+}
+
+#bookACall:hover, #linkedin:hover, #github:hover, #youtube:hover, #card1:hover, #card2:hover, #card3:hover, #card4:hover, #card5:hover, #card6:hover {
+    opacity: .8;
+    color: var(--primaryColor)
+}
+/* The navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: #;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change background on mouse-over */
+  .navbar a:hover {
+
+    color: black;
+  }
+  
+  /* Main content */
+  .main {
+    margin-top: 50px; /* Add a top margin to avoid content overlay */
+  }
