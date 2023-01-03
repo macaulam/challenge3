@@ -42,7 +42,12 @@ body {
     max-width: 75%;
 }
 /* Work section */
-
+.colorFonts, h2 {
+    color: var(--fontsColor)
+}
+.container {
+    padding-top: 100px;
+}
 
 .work {
     padding-top: 100px;
