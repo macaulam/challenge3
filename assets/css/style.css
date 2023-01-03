@@ -3,7 +3,9 @@ body {
   }
  .navbar {
     z-index: 1000;
-    background-color: #faedcd;
+    background-color: #023047;
+    font-family:Arial, Helvetica, sans-serif
+  
  } 
   :root {
     --primaryColor:  #023047;
@@ -11,18 +13,18 @@ body {
     --fontsColor: #faedcd;
 }
 
-.backgroundColor {
+.BG {
     background-color: #c9ada7;
     
 }
 .nav-item.active.motto {
     position:fixed;
-    background-color: #f5ebe0;
+    background-color: #0c0c0c;
     font-weight: bolder;
     font-size: large;
     
-    
-}
+}  
+
 .header {
 
 }
